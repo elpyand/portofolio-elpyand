@@ -503,7 +503,7 @@ hr {
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
 }
 .content-footer{
     display: flex;
@@ -605,6 +605,66 @@ hr {
     text-align: left;
     margin-left: 48px;
 }
+
+.form-footer {
+    margin-top: 36px;
+    text-align: left;
+    margin-left: 48px;
+    color: #ffffff;
+}
+
+.form-footer h2 {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.form-footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 260px;
+}
+
+.form-footer input,
+.form-footer textarea {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 6px 8px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    width: 100%;
+}
+
+.form-footer textarea {
+    resize: none;
+    height: 70px;
+}
+
+.form-footer button {
+    background-color: #ebb410;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 6px 12px;
+    font-size: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.form-footer button:hover {
+    background-color: #c49508;
+    transition: background-color 0.3s ease;
+}
+
+.form-footer #error {
+    color: red;
+    font-size: 9px;
+    margin-top: 3px;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
